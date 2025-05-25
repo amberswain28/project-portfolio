@@ -1,8 +1,7 @@
 # SQL Database Projects
 
-These projects were completed as part of my **CS 445: Introduction to Database Systems** course at Pacific University, taught by Professor Chadd Williams in Spring 2024.
-
-The course covered both theoretical and practical aspects of database systems using MySQL, with emphasis on:
+These projects were completed as part of my **CS 445: Introduction to Database Systems** course at Pacific University.
+The course covered implimentations using the SQL Programming Language, including:
 
 - The relational model and relational algebra
 - ER diagram construction and normalization
