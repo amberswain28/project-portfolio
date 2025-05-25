@@ -18,7 +18,7 @@ Projects were managed using GitHub Classroom and implemented with version contro
 
 ## Mock Software Company DB
 
-This was the **first major project** in the course and focused entirely on database design and SQL. I created a relational schema for a fictional software company, including ER diagrams and table structures. This project served as a practical application of course topics and helped reinforce core database design principles.
+This was the **first major project** in the course and focused entirely on database design and SQL. I created a relational schema for a fictional software company, including ER diagrams and table structures.
 
 **Programs Used:**
 - SQL in MariaDB
