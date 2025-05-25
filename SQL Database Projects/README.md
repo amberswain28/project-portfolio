@@ -1,39 +1,51 @@
 # SQL Database Projects
 
-These projects were developed as part of my **CS 445: Introduction to Database Systems** course at Pacific University, taught by Professor Chadd Williams in Spring 2024. The course covered both the theory and practical implementation of database systems using MySQL, PHP, and HTML, and emphasized topics such as:
+These projects were completed as part of my **CS 445: Introduction to Database Systems** course at Pacific University, taught by Professor Chadd Williams in Spring 2024.
+
+The course covered both theoretical and practical aspects of database systems using MySQL, with emphasis on:
 
 - The relational model and relational algebra
-- ER diagrams and database design
-- Normalization and indexing
-- Query evaluation and SQL optimization
+- ER diagram construction and normalization
+- Relational database design (conceptual, logical, physical)
+- Query writing using SQL
+- Indexing and query optimization
 - Transaction management and concurrency
-- Security, physical and logical database design
-- Web-enabled databases and LAMP stack architecture
+- Web-enabled database architecture using the LAMP stack (Linux, Apache, MySQL, PHP)
+- Security and access control
 
-All projects were implemented using a modern DBMS and version-controlled through GitHub Classroom.
-
-## 📂 Project 1: Mock Software Company DB
-
-This was the **first individual project** in the course and served as a hands-on application of the concepts taught in lectures. I designed and implemented a database for a fictional software company to manage lecture schedules, department details, and internal company resources.
-
-Key focus areas:
-- Data modeling and ER diagram design
-- Normalization to 3NF
-- Writing SQL queries for insert, update, delete, and select operations
-- Using PHP and HTML to display and interact with database data
-
-## 📂 Project 2: Online Bookstore
-
-This was the **capstone team project**, completed with one partner during the second half of the semester. We split the work evenly to build a fully functional online bookstore that allows users to browse, search, and purchase books.
-
-Key features:
-- Full database schema for products, users, orders, and categories
-- Backend interaction using PHP and SQL
-- Frontend built with HTML/CSS
-- Emphasis on database-driven web applications and best practices in relational design
-
-This project demonstrated our ability to apply everything we had learned throughout the course, from conceptual design to practical, real-world implementation.
+Projects were managed using GitHub Classroom and implemented with version control best practices.
 
 ---
 
-Let me know if you'd like me to help you paste this directly into GitHub, format it differently, or create README files for each individual project folder too!
+## 📂 Mock Software Company DB (Individual Project)
+
+This was the **first major project** in the course and focused entirely on database design and SQL. I created a relational schema for a fictional software company, including ER diagrams and normalized table structures. This project served as a practical application of course topics and helped reinforce core database design principles.
+
+**Programs Used:**
+- MySQL
+- ER diagramming tools
+- SQL (DDL and DML)
+
+**Key Deliverables:**
+- Normalized database schema (3NF)
+- Entity-relationship diagrams
+- Complex SQL queries for data manipulation and retrieval
+
+---
+
+## 📂 Online Bookstore (Team Project)
+
+This was the **final capstone project** of the course, developed collaboratively with one other student. We designed and implemented a fully functional online bookstore, applying everything learned during the semester to a real-world web application.
+
+**Programs Used:**
+- MySQL
+- PHP
+- HTML/CSS
+- MongoDB
+- REDIS DB
+
+**Key Features:**
+- User-friendly frontend for browsing books and placing orders
+- Backend logic for managing inventory, users, and transactions
+- Secure database interactions and well-structured SQL queries
+- Even division of labor and collaborative version control using GitHub
