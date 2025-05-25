@@ -22,30 +22,19 @@ Projects were managed using GitHub Classroom and implemented with version contro
 This was the **first major project** in the course and focused entirely on database design and SQL. I created a relational schema for a fictional software company, including ER diagrams and normalized table structures. This project served as a practical application of course topics and helped reinforce core database design principles.
 
 **Programs Used:**
-- MySQL
-- ER diagramming tools
-- SQL (DDL and DML)
-
-**Key Deliverables:**
-- Normalized database schema (3NF)
-- Entity-relationship diagrams
-- Complex SQL queries for data manipulation and retrieval
+- SQL in MariaDB
+- UMLet to create ER diagrams
 
 ---
 
 ## 📂 Online Bookstore (Team Project)
 
-This was the **final capstone project** of the course, developed collaboratively with one other student. We designed and implemented a fully functional online bookstore, applying everything learned during the semester to a real-world web application.
+This was the **final project** of the course, developed collaboratively with one other student. We designed and implemented a fully functional online bookstore, applying everything learned during the semester to a real-world web application.
 
 **Programs Used:**
-- MySQL
+- SQL in Maria DB
 - PHP
 - HTML/CSS
 - MongoDB
-- REDIS DB
+- Redis
 
-**Key Features:**
-- User-friendly frontend for browsing books and placing orders
-- Backend logic for managing inventory, users, and transactions
-- Secure database interactions and well-structured SQL queries
-- Even division of labor and collaborative version control using GitHub
