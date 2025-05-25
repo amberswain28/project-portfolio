@@ -1,0 +1,43 @@
+:root {
+	--cream: #ebe8e2;
+	--beige_light:#EAD7BB;
+	--beige_dark:#BCA37F;
+	--navy:#2a4d58;
+}
+
+#foo {
+	color: var(--navy);
+}
+
+body {
+  /* background-color: rgb(230, 204, 173); */
+	background-color: var(--cream);
+	margin: 10px 20px;
+
+	/* margin-left: 20px;
+	margin-right: 20px; */
+}
+
+h1 {
+  color: var(--navy);
+  margin-top: 10px;
+}
+
+table {
+	border: var(--navy);
+	color: var(--navy);
+}
+
+nav {
+	background-color: var(--navy);
+	position: absolute;
+	margin: 0px -20px;
+}
+
+.navbar-light li a {
+	color: var(--cream);
+}
+
+.btn-primary {
+	background-color: var (--navy);
+}

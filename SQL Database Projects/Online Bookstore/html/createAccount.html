@@ -1,0 +1,37 @@
+<?php
+	require_once('basicErrorHandling.php');
+?>
+
+<body>
+	<h1> Create Account </h1>
+	<form method="post" name="formLogin" action="userAuth.php">
+		<br>
+		<br>
+		First Name:
+		<input name="txtFName" type="text" placeholder="First Name">
+		<br>
+		<br>
+		Last Name:
+		<input name="txtLName" type="text" placeholder="Last Name">
+		<br>
+		<br>
+		Username:
+		<input name="txtUsername" type="text" placeholder="Username">
+		<br>
+		<br>
+		Password:
+		<input name="txtPassword" type="password" placeholder="Passoword">
+		<br>
+		<br>
+		Email:
+		<input name="txtEmail" type="text" placeholder="Email">
+		<br>
+		<br>
+
+		<input type="submit" name="btnRegister" value="Register">
+	</form>
+	<br>
+	<br>
+	<a href="index.html"> Back to Login </a>
+
+</body>

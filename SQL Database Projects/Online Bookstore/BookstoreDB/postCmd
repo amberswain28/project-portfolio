@@ -1,0 +1,7 @@
+sudo chmod a+x "$(pwd)/html" && sudo rm -rf /var/www/html
+ sudo ln -s "$(pwd)/html" /var/www/html && sudo rm -rf "$(pwd)/html/php"
+  sudo ln -s "$(pwd)/pdoExamples" "$(pwd)/html/php" && sudo rm -f /home/vscode/.dbclient 
+	 sudo ln -s "$(pwd)/.dbclient"  /home/vscode/	  pecl config-set php_ini /usr/local/etc/php/php.ini-development 
+	  sudo ln -s "$(pwd)/ini/redis.ini" /usr/local/etc/php/conf.d/ &&
+		 sudo ln -s "$(pwd)/ini/mongodb.ini" /usr/local/etc/php/conf.d/ 
+		 yes '' | sudo pecl install mongodb && yes no |  sudo pecl install redis

@@ -1,0 +1,46 @@
+<!-- --------------------------------------------------------------------------
+// File name:  index.html
+// Author:     Alyssa Dixon
+// Date:       April 20, 2024
+// Class:      CS445
+// Assignment: Bookstore
+// Purpose:    Login Page
+//---------------------------------------------------------------------------- -->
+<head>
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link 
+		rel="stylesheet" 
+		href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+		crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="./styles.css">
+	<title> Welcome </title>
+</head>
+<body>
+	<nav class="navbar navbar-light">
+		<a style="color: var(--cream)" class="navbar-brand" href="#">
+			<img src="./imgs/icon_book_cream.png" style="color: var(--cream)" width="30" height="30" class="d-inline-block align-top" alt="">
+			Double A Books
+		</a>
+	</nav>
+	<h1> Login </h1>
+	<form method="post" name="formLogin" action="userAuth.php">
+		<br>
+		<br>
+		Username:
+		<input name="txtUsername" type="text" placeholder="Username">
+		<br>
+		<br>
+		Password:
+		<input name="txtPassword" type="password" placeholder="Password">
+		<br>
+		<br>
+
+		<input type="submit" name="btnLogin" value="Login">
+	</form>
+	<br>
+	<br>
+	<a href="createAccount.html">Create Account </a>
+
+</body>

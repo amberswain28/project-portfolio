@@ -1,0 +1,7 @@
+.dbclient/*.jar
+**/*.zip
+db.ini
+*.pdf
+Alyssa*.sql
+Amber*.sql
+**/vendor/
